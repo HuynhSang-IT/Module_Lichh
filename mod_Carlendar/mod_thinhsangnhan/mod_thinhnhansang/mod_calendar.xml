@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0" client="site" method="upgrade">
+    <name>mod_calendar</name>
+    <author>Your Name</author>
+    <version>1.0.0</version>
+    <description>Module hiển thị lịch chuyển đổi tháng và múi giờ</description>
+    <files>
+        <filename module="mod_calendar">mod_calendar.php</filename>
+        <filename>helper.php</filename>
+        <filename>mod_calendar.xml</filename>
+        <folder>tmpl</folder>
+        <folder>css</folder>
+    </files>
+</extension>
